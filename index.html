@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G-Kub Restaurant</title>
+    <meta
+      name="description"
+      content="G-Kub, restaurant professionnel. Découvrez nos menus, plats, galerie et contact pour une commande rapide."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- bannière si JavaScript n'est pas actif -->
+    <div class="no-js-warning reveal" style="display:none">
+      Veuillez activer JavaScript pour b�n�ficier de toutes les animations du site.
+    </div>
+
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#top">
+          <img src="IMG/logo.png" alt="Logo G-Kub" />
+        </a>
+
+        <button class="burger" aria-label="Ouvrir le menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links">
+          <a data-scroll href="#presentation">À propos</a>
+          <a data-scroll href="#carte">Carte</a>
+          <a data-scroll href="#plats">Nos plats</a>
+          <a data-scroll href="#galerie">Galerie</a>
+          <a data-scroll href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-text reveal">
+          <span>Restaurant G-Kub</span>
+          <h2>Une expérience gourmande, moderne et chaleureuse.</h2>
+          <p>
+            G-Kub vous propose une carte soignée avec des saveurs authentiques et un design élégant.
+            Découvrez nos menus, nos plats maison et commandez facilement.
+          </p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#contact">Réserver maintenant</a>
+            <a class="btn btn-secondary" href="#carte">Voir la carte</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <article class="hero-card reveal">
+            <img src="IMG/capt.jpg" alt="Plat signature G-Kub" />
+            <div class="card-info">
+              <h3>Plat signature</h3>
+              <p>Des recettes inspirées pour un repas mémorable.</p>
+            </div>
+          </article>
+          <article class="hero-card reveal">
+            <img src="IMG/legu.avif" alt="Assiette de légumes frais" />
+            <div class="card-info">
+              <h3>Produits frais</h3>
+              <p>Des ingrédients soigneusement sélectionnés chaque jour.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="presentation" class="section reveal">
+        <div class="section-title">
+          <small>Présentation</small>
+          <h2>Bienvenue chez G-Kub</h2>
+        </div>
+        <div class="cards menu-grid">
+          <article class="card reveal">
+            <img src="IMG/nos.jpg" alt="Salle du restaurant G-Kub" />
+            <div class="card-body">
+              <h3>Ambiance chaleureuse</h3>
+              <p>Un lieu convivial pensé pour vos repas en famille, vos repas d'affaires ou un dîner romantique.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <img src="IMG/lor.jpg" alt="Chef préparant un plat" />
+            <div class="card-body">
+              <h3>Cuisine moderne</h3>
+              <p>Chaque plat est préparé avec soin et créativité pour offrir un équilibre parfait de goûts.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <img src="IMG/plats.jpeg" alt="Assiette gastronomique" />
+            <div class="card-body">
+              <h3>Service professionnel</h3>
+              <p>Une équipe expérimentée qui vous accueille avec courtoisie et attention.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="carte" class="section reveal">
+        <div class="section-title">
+          <small>Nos menus</small>
+          <h2>Découvrez nos différents menus</h2>
+        </div>
+        <div class="cards menu-grid">
+          <article class="card reveal">
+            <img src="IMG/menu1.jpg" alt="Flyer menu 1" />
+            <div class="card-body">
+              <h3>Menu Découverte</h3>
+              <p>Idéal pour tester plusieurs saveurs sans se tromper.</p>
+              <span>Entrée + Plat + Dessert</span>
+            </div>
+          </article>
+          <article class="card reveal">
+            <img src="IMG/menu2.webp" alt="Flyer menu 2" />
+            <div class="card-body">
+              <h3>Menu Gourmand</h3>
+              <p>Une sélection gourmande pour se faire plaisir en douceur.</p>
+              <span>Assiette généreuse</span>
+            </div>
+          </article>
+          <article class="card reveal">
+            <img src="IMG/menu3.jpg" alt="Flyer menu 3" />
+            <div class="card-body">
+              <h3>Menu Prestige</h3>
+              <p>Un menu haut de gamme pour une expérience culinaire complète.</p>
+              <span>Chef’s choice</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="plats" class="section reveal">
+        <div class="section-title">
+          <small>Nos plats</small>
+          <h2>Plats faits maison</h2>
+        </div>
+        <div class="cards gallery-grid">
+          <article class="card reveal">
+            <img src="IMG/poul.jpeg" alt="Poulet grill� G-Kub" />
+            <div class="card-body">
+              <h3>Poulet grillé</h3>
+              <p>Une cuisson maîtrisée, accompagnée de légumes de saison.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <img src="IMG/lor.jpg" alt="Plat base de fruits de mer" />
+            <div class="card-body">
+              <h3>Poisson du marché</h3>
+              <p>Fraîcheur garantie, préparé avec des herbes aromatiques.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <img src="IMG/legu.avif" alt="Légumes frais cuisinés" />
+            <div class="card-body">
+              <h3>Assiette végétarienne</h3>
+              <p>Des saveurs colorées et une composition équilibrée.</p>
+            </div>
+          </article>
+          <article class="card reveal">
+            <img src="IMG/capt.jpg" alt="Dessert gourmand" />
+            <div class="card-body">
+              <h3>Desserts maison</h3>
+              <p>Des douceurs créatives pour terminer votre repas en beauté.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="galerie" class="section reveal">
+        <div class="section-title">
+          <small>Galerie</small>
+          <h2>Nos différents plats</h2>
+        </div>
+        <div class="cards gallery-grid">
+          <article class="card reveal">
+            <img src="IMG/nos.jpg" alt="Intérieur du restaurant G-Kub" />
+          </article>
+          <article class="card reveal">
+            <img src="IMG/plats.jpeg" alt="Plat présenté au restaurant" />
+          </article>
+          <article class="card reveal">
+            <img src="IMG/poul.jpeg" alt="Plat de poulet" />
+          </article>
+          <article class="card reveal">
+            <img src="IMG/lor.jpg" alt="Plat de fruits de mer" />
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <div class="section-title">
+          <small>Contact</small>
+          <h2>Commandez ou demandez des renseignements</h2>
+        </div>
+        <div class="contact-grid">
+          <article class="contact-card reveal">
+            <h3>Contact rapide</h3>
+            <p>Appelez-nous, envoyez un email ou passez directement au restaurant.</p>
+            <ul class="contact-list">
+              <li><strong>Téléphone :</strong> 01 23 45 67 89</li>
+              <li><strong>Email :</strong> <a href="mailto:contact@gkub.com">contact@gkub.com</a></li>
+              <li><strong>Adresse :</strong> 12 Rue de la Gourmandise, Paris</li>
+            </ul>
+            <p>Nous sommes disponibles pour les réservations de groupes et les commandes à emporter.</p>
+          </article>
+
+          <article class="form-card reveal">
+            <h3>Envoyer un message</h3>
+            <form>
+              <div class="form-field">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="vous@exemple.com" required />
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Votre commande ou question" required></textarea>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </div>
+            </form>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <p>G-Kub � Restaurant � Paris</p>
+        <div class="footer-links">
+          <a href="#top">Haut de page</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="js/script.js" defer></script> -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

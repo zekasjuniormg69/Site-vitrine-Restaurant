@@ -1,0 +1,14 @@
+Je veux que tu me créer un site vitrine professionel de restaurant "G-Kub" 
+
+Tu trouveras le logo du site dans le dossier "IMG", dans le même dossier tu trouveras des photos des article à mettre sur le site. 
+toujours dans le même dossier, tu trouveras aussi trois fleyer qui présente les menu du restaurant, je veux que c'est menu soit présenter dans le site...
+
+Le site dois être très fluid et dinamique. Et je veux que les couleurs utiliser soit très propre, présentable et professionel. 
+
+Les outils que tu utilisera sont "html, css" tu mets le "style.css" dans le dossier "css" et du "js" pour la bonne fluidité et la dinamisité. 
+
+N'oublie pas de faire un footter propre et communiquand, c'est à dire, un moyen pour être contacté si un client veux passer une commande ou veux avoir plus de renseignement. 
+
+Je veux que tu code en français, tu mets des commentaire et que ton code soit capable de guider un dev junior quand il viendra continuer le projet.
+
+Ensuite pour finir, crée un fichier README.md pour ce projet.  
